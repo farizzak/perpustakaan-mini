@@ -31,7 +31,7 @@
 			<li class="nav-item dropdown dropdown-user">
 				<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
 					<img src="{{asset('global_assets/images/user-default.png') }}" class="rounded-circle mr-2" height="34" alt="">
-					<span>{{\Auth::user()->nama}}</span>
+					<span>{{\Auth::user()->name}}</span>
 				</a>
 
 				<div class="dropdown-menu dropdown-menu-right">
